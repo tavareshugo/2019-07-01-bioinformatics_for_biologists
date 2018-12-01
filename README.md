@@ -11,7 +11,7 @@ Below, we provide links to detailed materials for your reference, many of
 which were developed by the [Data Carpentry](https://datacarpentry.org) organisation.
 
 If you have any queries please contact Hugo Tavares (<hugo.tavares@slcu.cam.ac.uk>) 
-or [post a new issue]() 
+or [post a new issue](https://github.com/tavareshugo/2018-12-03-bioinformatics_for_biologists/issues) 
 on our GitHub repository.
 
 ----
@@ -27,7 +27,6 @@ However, you are welcome to use your own laptop, in which case you need to:
 * Download and install R ([here](https://cran.r-project.org/))
 * Download and install RStudio ([here](https://www.rstudio.com/products/rstudio/download/#download))
 * Install the R package `tidyverse` (open RStudio and go to `Tools > Install Packages`)
-* Download the data for the lesson ([here](https://ndownloader.figshare.com/files/2292169))
 
 ----
 
@@ -60,7 +59,8 @@ Detailed reference materials:
 * [Introduction to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html)
 * [Starting with data](https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html)
 
-To download data for this lesson from R:
+In case you are using your own laptop, you can download data for this lesson from 
+R using this code:
 
 ```
 download.file("https://ndownloader.figshare.com/files/2292169",
@@ -85,13 +85,21 @@ Detailed reference materials:
 ### Exploratory data analysis - a worked example
 
 In this session we will apply the concepts learned so far to a worked example of 
-an exploratory data analysis from a transcriptome study.
+an exploratory data analysis of transcriptomic data.
 
-* Find the lesson materials [here]()
+* Find the lesson materials [here](https://tavareshugo.github.io/data-carpentry-rnaseq/)
+
+In case you are using your own laptop, you can download data for this lesson from 
+R using this code:
+
+```
+download.file("https://github.com/tavareshugo/data_carpentry_extras/blob/master/rnaseq_visualisation/fission_data.RData?raw=true",
+              destfile = "data/fission_data.RData",
+              method = "wb")
+```
 
 During the lesson, we will also learn a few more tricks in R, including:
 
-* [Factors](https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html#factors)
 * [Reshaping data](https://datacarpentry.org/R-ecology-lesson/03-dplyr.html#reshaping_with_gather_and_spread)
 * [Combining tables](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/4.summarise-and-combine.nb.html#joining)
 
