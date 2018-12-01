@@ -93,9 +93,9 @@ In case you are using your own laptop, you can download data for this lesson fro
 R using this code:
 
 ```
-download.file("https://github.com/tavareshugo/data_carpentry_extras/blob/master/rnaseq_visualisation/fission_data.RData?raw=true",
+download.file("https://github.com/tavareshugo/data-carpentry-rnaseq/blob/master/data/fission_data.RData?raw=true",
               destfile = "data/fission_data.RData",
-              method = "wb")
+              mode = "wb")
 ```
 
 During the lesson, we will also learn a few more tricks in R, including:
