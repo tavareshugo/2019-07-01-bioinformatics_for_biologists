@@ -59,6 +59,10 @@ Detailed reference materials:
 * [Introduction to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html)
 * [Starting with data](https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html)
 
+[exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#1_intro)
+
+----
+
 In case you are using your own laptop, you can download data for this lesson from 
 R using this code:
 
@@ -77,9 +81,12 @@ visualise data with the `ggplot2` package.
 Detailed reference materials:
 
 * [Data manipulation with `dplyr`](https://datacarpentry.org/R-ecology-lesson/03-dplyr.html)
+
+[exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#2_manipulating_data_frames_with_dplyr)
+
 * [Data visualisation with `ggplot2`](https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html)
 
-[exercises](https://rawgit.com/tavareshugo/data_carpentry_extras/master/slides_with_exercises/exercises.html)
+[exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#3_plotting_with_ggplot2)
 
 
 ### Exploratory data analysis - a worked example
@@ -111,8 +118,8 @@ Nature Methods 14, 641–642
 
 ## Further resources
 
-* [Summary of R basics](https://rawgit.com/tavareshugo/data_carpentry_extras/master/recap_intro_r/recap_intro_r.html)
-* [Summary of dplyr functions and their equivalent in base R](https://rawgit.com/tavareshugo/data_carpentry_extras/master/base-r_tidyverse_equivalents/base-r_tidyverse_equivalents.html) (will also add `data.table` equivalents at some point)
+* [Summary of R basics](https://tavareshugo.github.io/data_carpentry_extras/recap_intro_r/recap_intro_r.html)
+* [Summary of dplyr functions and their equivalent in base R](https://tavareshugo.github.io/data_carpentry_extras/base-r_tidyverse_equivalents/base-r_tidyverse_equivalents.html) (will also add `data.table` equivalents at some point)
 * [Cheatsheets for dplyr, ggplot2 and more](https://www.rstudio.com/resources/cheatsheets/)
 
 Extra materials/books:
