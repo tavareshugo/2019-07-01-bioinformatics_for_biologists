@@ -41,6 +41,7 @@ recording data in spreadsheets.
 
 * Download data for this lesson [here](https://ndownloader.figshare.com/files/2252083)
 * Find detailed materials [here](https://datacarpentry.org/spreadsheet-ecology-lesson/)
+    * example of [tidy data](https://docs.google.com/spreadsheets/d/1VIygwM-x-wuYVGJv1JFFPRosg0DzSXdM1jLf5bHwg7o/edit?usp=sharing)
 
 Further reading:
 *  Karl W. Broman & Kara H. Woo (2018) [Data Organization in Spreadsheets](https://doi.org/10.1080/00031305.2017.1375989), 
