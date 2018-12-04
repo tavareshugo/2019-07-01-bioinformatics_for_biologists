@@ -67,14 +67,6 @@ Detailed reference materials:
 
 [exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#1_intro)
 
-----
-
-In case you are using your own laptop, you can get the starting code for the 
-data.frame lesson from [here](https://raw.githubusercontent.com/tavareshugo/2018-12-03-bioinformatics_for_biologists/master/dplyr_lesson.R) (copy 
-and paste it into a new R script and adjust the working directory as needed).
-
-----
-
 
 ## Data manipulation and visualisation in R
 
@@ -85,12 +77,12 @@ visualise data with the `ggplot2` package.
 Detailed reference materials:
 
 * [Data manipulation with `dplyr`](https://datacarpentry.org/R-ecology-lesson/03-dplyr.html)
-
-[exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#2_manipulating_data_frames_with_dplyr)
+    * [dplyr starting script](https://raw.githubusercontent.com/tavareshugo/2018-12-03-bioinformatics_for_biologists/master/dplyr_lesson.R)
+    * [exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#2_manipulating_data_frames_with_dplyr)
 
 * [Data visualisation with `ggplot2`](https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html)
-
-[exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#3_plotting_with_ggplot2)
+    * [ggplot2 starting script](https://raw.githubusercontent.com/tavareshugo/2018-12-03-bioinformatics_for_biologists/master/ggplot_lesson.R)
+    * [exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#3_plotting_with_ggplot2)
 
 
 ## Exploratory RNAseq data analysis in R
@@ -99,19 +91,12 @@ In this session we will apply the concepts learned so far to a worked example of
 an exploratory data analysis of transcriptomic data.
 
 * Find the lesson materials [here](https://tavareshugo.github.io/data-carpentry-rnaseq/)
+    * [rnaseq starting script](https://raw.githubusercontent.com/tavareshugo/2018-12-03-bioinformatics_for_biologists/master/rnaseq_analysis.R)
 
 During the lesson, we will also learn a few more tricks in R, including:
 
 * [Reshaping data](https://datacarpentry.org/R-ecology-lesson/03-dplyr.html#reshaping_with_gather_and_spread)
 * [Combining tables](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/4.summarise-and-combine.nb.html#joining)
-
-----
-
-In case you are using your own laptop, you can get the starting code for this 
-lesson from [here](https://raw.githubusercontent.com/tavareshugo/2018-12-03-bioinformatics_for_biologists/master/rnaseq_analysis.R) (copy 
-and paste it into a new R script and adjust the working directory as needed).
-
-----
 
 Further reading:
 
