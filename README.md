@@ -1,5 +1,11 @@
 # Introduction to data analysis with R
 
+3-4 December 2018, [Cambridge University Bioinformatics Training](https://bioinfotraining.bio.cam.ac.uk/)
+
+Instructors: Hugo Tavares & Sandra Cortijo ([Sainsbury Laboratory](www.slcu.cam.ac.uk))
+
+----
+
 This is a general introduction to R for data analysis. 
 
 Our practicals will be very hands-on, focusing on learning the necessary sintax 
@@ -10,8 +16,7 @@ these skills to a wide range of problems.
 Below, we provide links to detailed materials for your reference, many of 
 which were developed by the [Data Carpentry](https://datacarpentry.org) organisation.
 
-If you have any queries please contact Hugo Tavares (<hugo.tavares@slcu.cam.ac.uk>) 
-or [post a new issue](https://github.com/tavareshugo/2018-12-03-bioinformatics_for_biologists/issues) 
+If you have any queries please [post a new issue](https://github.com/tavareshugo/2018-12-03-bioinformatics_for_biologists/issues) 
 on our GitHub repository.
 
 ----
@@ -31,7 +36,7 @@ However, you are welcome to use your own laptop, in which case you need to:
 ----
 
 
-### Data Organisation in Spreadsheets
+## Data Organisation in Spreadsheets
 
 Digital data recording often starts with a spreadsheet software (e.g. Excel). 
 For an effective data analysis, it's crucial to start with a well structured 
@@ -50,7 +55,7 @@ The American Statistician, 72:1, 2-10
 Journal of Statistical Software, 59:10
 
 
-### Introduction to R
+## Introduction to R
 
 This lesson will cover the very basics of using R with RStudio. 
 
@@ -68,12 +73,13 @@ In case you are using your own laptop, you can download data for this lesson fro
 R using this code:
 
 ```
+dir.create("data")
 download.file("https://ndownloader.figshare.com/files/2292169",
-              "data/portal_data_joined.csv")
+              destfile = "data/portal_data_joined.csv")
 ```
 
 
-### Data manipulation and visualisation
+## Data manipulation and visualisation in R
 
 This lesson will cover some functions to effectively manipulate and summarise 
 tabular data using the `dplyr` package and we will start to learn how to 
@@ -90,7 +96,7 @@ Detailed reference materials:
 [exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#3_plotting_with_ggplot2)
 
 
-### Exploratory data analysis - a worked example
+## Exploratory RNAseq data analysis in R
 
 In this session we will apply the concepts learned so far to a worked example of 
 an exploratory data analysis of transcriptomic data.
@@ -101,6 +107,7 @@ In case you are using your own laptop, you can download data for this lesson fro
 R using this code:
 
 ```
+dir.create("data")
 download.file("https://github.com/tavareshugo/data-carpentry-rnaseq/blob/master/data/fission_data.RData?raw=true",
               destfile = "data/fission_data.RData",
               mode = "wb")
@@ -113,6 +120,8 @@ During the lesson, we will also learn a few more tricks in R, including:
 
 Further reading:
 
+* Conesa et al. (2016) [A survey of best practices for RNA-seq data analysis](https://doi.org/10.1186/s13059-016-0881-8),
+Genome Biology 17, 13
 * Jake Lever, Martin Krzywinski & Naomi Altman (2017) [Principal component analysis](https://www.nature.com/articles/nmeth.4346),
 Nature Methods 14, 641–642
 
