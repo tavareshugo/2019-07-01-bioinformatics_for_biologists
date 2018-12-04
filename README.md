@@ -69,14 +69,11 @@ Detailed reference materials:
 
 ----
 
-In case you are using your own laptop, you can download data for this lesson from 
-R using this code:
+In case you are using your own laptop, you can get the starting code for the 
+data.frame lesson from [here](https://raw.githubusercontent.com/tavareshugo/2018-12-03-bioinformatics_for_biologists/master/dplyr_lesson.R) (copy 
+and paste it into a new R script and adjust the working directory as needed).
 
-```
-dir.create("data")
-download.file("https://ndownloader.figshare.com/files/2292169",
-              destfile = "data/portal_data_joined.csv")
-```
+----
 
 
 ## Data manipulation and visualisation in R

@@ -21,17 +21,19 @@ rm(list = ls())
 dir.create("data")
 
 # Download the data provided by your collaborator
-download.file("https://github.com/tavareshugo/data-carpentry-rnaseq/blob/master/data/fission_data.RData?raw=true",
-              destfile = "data/fission_data.RData",
-              mode = "wb")
+download.file("https://ndownloader.figshare.com/files/2292169",
+              destfile = "data/portal_data_joined.csv")
 
-# Load the data into R
-## "RData" files are special R files that can contain several objects within them
-## You might not use these often, tipically you would read data from files
-load("data/fission_data.RData")
+# Read data into R
+surveys <- read_csv("data/portal_data_joined.csv", na = "")
+
+# Or, if you want to use the base R function:
+## read.csv("data/portal_data_joined.csv", na.strings = "", stringsAsFactors = FALSE)
 
 
 ##### Analysis ####
-# Start of your analysis
-
+## Some useful keyboard shortcuts
+## Ctrl + Enter for running line of code from script to console
+## Alt + - for "<-" operator
+## Ctrl + Shift + M for "%>%" pipe operator
 
