@@ -79,10 +79,12 @@ Detailed reference materials:
 * [Data manipulation with `dplyr`](https://datacarpentry.org/R-ecology-lesson/03-dplyr.html)
     * [dplyr starting script](https://raw.githubusercontent.com/tavareshugo/2018-12-03-bioinformatics_for_biologists/master/dplyr_lesson.R)
     * [exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#2_manipulating_data_frames_with_dplyr)
+    * [dplyr cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf)
 
 * [Data visualisation with `ggplot2`](https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html)
     * [ggplot2 starting script](https://raw.githubusercontent.com/tavareshugo/2018-12-03-bioinformatics_for_biologists/master/ggplot_lesson.R)
     * [exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#3_plotting_with_ggplot2)
+    * [ggplot2 cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf)
 
 
 ## Exploratory RNAseq data analysis in R
