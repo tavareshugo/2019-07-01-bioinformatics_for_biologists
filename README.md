@@ -34,7 +34,7 @@ However, you are welcome to use your own laptop, in which case you need to:
 
 * Download and install R ([here](https://cran.r-project.org/))
 * Download and install RStudio ([here](https://www.rstudio.com/products/rstudio/download/#download))
-* Install the R packages `tidyverse`, `patchwork` and `ggfortify` (open RStudio and go to `Tools > Install Packages`)
+* Install the R packages `tidyverse`, `corrplot`, `patchwork` and `ggfortify` (open RStudio and go to `Tools > Install Packages`)
 
 -----
 
