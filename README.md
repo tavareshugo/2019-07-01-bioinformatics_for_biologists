@@ -24,7 +24,7 @@ on our GitHub repository.
 
 ----
 
-**Setup**
+# Setup
 
 All necessary software and data will be available on the training machines at 
 the Bioinformatics Training Room 
@@ -34,9 +34,12 @@ However, you are welcome to use your own laptop, in which case you need to:
 
 * Download and install R ([here](https://cran.r-project.org/))
 * Download and install RStudio ([here](https://www.rstudio.com/products/rstudio/download/#download))
-* Install the R packages `tidyverse`, `corrplot`, `patchwork` and `ggfortify` (open RStudio and go to `Tools > Install Packages`)
+* Install the CRAN R packages `tidyverse`, `corrplot`, `patchwork` and `ggfortify` (open RStudio and go to `Tools > Install Packages`)
+* Install the Bioconductor R package `ComplexHeatmap` ([instructions here](https://bioconductor.org/packages/release/bioc/html/ComplexHeatmap.html))
 
------
+----
+
+# Materials 
 
 ## Introduction to R
 
@@ -47,6 +50,7 @@ Detailed reference materials:
 * [Introduction to RStudio IDE](https://datacarpentry.org/R-ecology-lesson/00-before-we-start.html)
 * [Introduction to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html)
 * [Starting with data](https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html)
+* [Introduction to `ggplot2`]()
 
 [exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#1_intro)
 
@@ -62,12 +66,10 @@ Detailed reference materials:
 * [Data manipulation with `dplyr`](https://datacarpentry.org/R-ecology-lesson/03-dplyr.html)
     * [dplyr starting script](https://raw.githubusercontent.com/tavareshugo/2018-12-03-bioinformatics_for_biologists/master/dplyr_lesson.R)
     * [exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#2_manipulating_data_frames_with_dplyr)
-    * [dplyr cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf)
 
 * [Data visualisation with `ggplot2`](https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html)
     * [ggplot2 starting script](https://raw.githubusercontent.com/tavareshugo/2018-12-03-bioinformatics_for_biologists/master/ggplot_lesson.R)
     * [exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#3_plotting_with_ggplot2)
-    * [ggplot2 cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf)
 
 
 ## Data Organisation in Spreadsheets
@@ -94,13 +96,9 @@ Journal of Statistical Software, 59:10
 In this session we will apply the concepts learned so far to a worked example of 
 an exploratory data analysis of transcriptomic data.
 
-* Find the lesson materials [here](https://tavareshugo.github.io/data-carpentry-rnaseq/)
+* [Analysis of gene expression data](https://tavareshugo.github.io/data-carpentry-rnaseq/)
     * [rnaseq starting script](https://raw.githubusercontent.com/tavareshugo/2018-12-03-bioinformatics_for_biologists/master/rnaseq_analysis.R)
 
-During the lesson, we will also learn a few more tricks in R, including:
-
-* [Reshaping data](https://datacarpentry.org/R-ecology-lesson/03-dplyr.html#reshaping_with_gather_and_spread)
-* [Combining tables](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/4.summarise-and-combine.nb.html#joining)
 
 Further reading:
 
@@ -111,8 +109,9 @@ Nature Methods 14, 641–642
 * Naomi Altman & Martin Krzywinski (2017) [Clustering](https://www.nature.com/articles/nmeth.4299), 
 Nature Methods 14, 545–546
 
+----
 
-## Further resources
+# Further resources
 
 * [One page summary of functions](https://drive.google.com/file/d/1bo8vMXeeiRy8l89eIjOALezO3V5oaewY/view)
 * [Summary of R basics](https://tavareshugo.github.io/data_carpentry_extras/recap_intro_r/recap_intro_r.html)
@@ -120,6 +119,7 @@ Nature Methods 14, 545–546
 * [Cheatsheets for dplyr, ggplot2 and more](https://www.rstudio.com/resources/cheatsheets/)
     * [dplyr cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf)
     * [ggplot2 cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf)
+* [Data-to-Viz](https://www.data-to-viz.com/) website with great tips for choosing the right graphs for your data
 
 
 Reference books:
