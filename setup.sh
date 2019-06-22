@@ -16,6 +16,7 @@ mkdir -p day1_intro_r/data
 # download data
 wget -O day1_intro_r/data/portal_data_joined.csv https://ndownloader.figshare.com/files/2292169
 wget -O day1_intro_r/data/survey_data_spreadsheet_messy.xls https://ndownloader.figshare.com/files/2252083
+wget -O day1_intro_r/data/species_habitat_affinities_Ernest2017.csv https://raw.githubusercontent.com/tavareshugo/data_carpentry_extras/master/slides_with_exercises/species_habitat_affinities_Ernest2017.csv
 
 
 #### Day 4 data ####
