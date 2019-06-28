@@ -50,6 +50,7 @@ a wide range of graphs for data visualisation.
 * [Introduction to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html)
 * [Starting with data](https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html)
 * [Data visualisation using `ggplot2`](https://tavareshugo.github.io/data_carpentry_extras/ggplot2_prelude/intro_ggplot2.html) (part I)
+    * [starting script](https://raw.githubusercontent.com/tavareshugo/2019-07-01-bioinformatics_for_biologists/master/ggplot_partI_lesson.R)
 
 [exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html)
 
@@ -60,10 +61,12 @@ This lesson will cover some functions to effectively manipulate and summarise
 tabular data and we will learn more about data visualisation.
 
 * [Data manipulation with `dplyr`](https://datacarpentry.org/R-ecology-lesson/03-dplyr.html)
+    * [starting script](https://raw.githubusercontent.com/tavareshugo/2019-07-01-bioinformatics_for_biologists/master/dplyr_lesson.R)
     * [exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#2_manipulating_data_frames_with_dplyr)
 * [Combining datasets](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/4.summarise-and-combine-live-coding-script.html#joining)
     * [exercise](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#44_combining_datasets)
 * [Data visualisation with `ggplot2`](https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html#plotting_time_series_data) (part II)
+    * [starting script](https://raw.githubusercontent.com/tavareshugo/2019-07-01-bioinformatics_for_biologists/master/ggplot_partII_lesson.R)
     * [exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#3_plotting_with_ggplot2)
 
 
