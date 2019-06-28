@@ -46,10 +46,10 @@ However, you are welcome to use your own laptop, in which case you need to:
 This lesson will cover the basics of using R with RStudio and how to produce 
 a wide range of graphs for data visualisation. 
 
-* [Introduction to RStudio IDE](https://datacarpentry.org/R-ecology-lesson/00-before-we-start.html)
+* [Introduction to RStudio](https://datacarpentry.org/R-ecology-lesson/00-before-we-start.html)
 * [Introduction to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html)
 * [Starting with data](https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html)
-* [Introduction to `ggplot2`](https://tavareshugo.github.io/data_carpentry_extras/ggplot2_prelude/intro_ggplot2.html)
+* [Data visualisation using `ggplot2`](https://tavareshugo.github.io/data_carpentry_extras/ggplot2_prelude/intro_ggplot2.html) (part I)
 
 [exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html)
 
@@ -60,11 +60,10 @@ This lesson will cover some functions to effectively manipulate and summarise
 tabular data and we will learn more about data visualisation.
 
 * [Data manipulation with `dplyr`](https://datacarpentry.org/R-ecology-lesson/03-dplyr.html)
-    * [dplyr starting script](https://raw.githubusercontent.com/tavareshugo/2018-12-03-bioinformatics_for_biologists/master/dplyr_lesson.R)
     * [exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#2_manipulating_data_frames_with_dplyr)
-
-* [Data visualisation with `ggplot2`](https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html)
-    * [ggplot2 starting script](https://raw.githubusercontent.com/tavareshugo/2018-12-03-bioinformatics_for_biologists/master/ggplot_lesson.R)
+* [Combining datasets](https://rawgit.com/bioinformatics-core-shared-training/r-intermediate/master/4.summarise-and-combine-live-coding-script.html#joining)
+    * [exercise](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#44_combining_datasets)
+* [Data visualisation with `ggplot2`](https://datacarpentry.org/R-ecology-lesson/04-visualization-ggplot2.html#plotting_time_series_data) (part II)
     * [exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#3_plotting_with_ggplot2)
 
 
@@ -93,7 +92,6 @@ In this session we will apply the concepts learned so far to a worked example of
 an exploratory data analysis of transcriptomic data.
 
 * [Analysis of gene expression data](https://tavareshugo.github.io/data-carpentry-rnaseq/)
-    * [rnaseq starting script](https://raw.githubusercontent.com/tavareshugo/2018-12-03-bioinformatics_for_biologists/master/rnaseq_analysis.R)
 
 
 Further reading:
