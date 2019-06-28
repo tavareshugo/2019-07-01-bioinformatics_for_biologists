@@ -14,12 +14,12 @@ Our practicals will be very hands-on, focusing on learning the necessary sintax
 to allow you to do exploratory data analysis in R, from data manipulation to visualisation. 
 We will focus on tabular data, which is general enough to allow you to apply 
 these skills to a wide range of problems. On the third day we will go through a 
-more complex example using data from an RNAseq analysis.
+more complex example using transcriptomic data.
 
 Below, we provide links to detailed materials for your reference, many of 
 which were developed by the [Data Carpentry](https://datacarpentry.org) organisation.
 
-If you have any queries please [post a new issue](https://github.com/tavareshugo/2019-07-01-bioinformatics_for_biologists/issues) 
+If you have any questions please [post a new issue](https://github.com/tavareshugo/2019-07-01-bioinformatics_for_biologists/issues) 
 on our GitHub repository.
 
 ----
@@ -43,25 +43,21 @@ However, you are welcome to use your own laptop, in which case you need to:
 
 ## Introduction to R
 
-This lesson will cover the very basics of using R with RStudio. 
-
-Detailed reference materials:
+This lesson will cover the basics of using R with RStudio and how to produce 
+a wide range of graphs for data visualisation. 
 
 * [Introduction to RStudio IDE](https://datacarpentry.org/R-ecology-lesson/00-before-we-start.html)
 * [Introduction to R](https://datacarpentry.org/R-ecology-lesson/01-intro-to-r.html)
 * [Starting with data](https://datacarpentry.org/R-ecology-lesson/02-starting-with-data.html)
-* [Introduction to `ggplot2`]()
+* [Introduction to `ggplot2`](https://tavareshugo.github.io/data_carpentry_extras/ggplot2_prelude/intro_ggplot2.html)
 
-[exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#1_intro)
+[exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html)
 
 
 ## Data manipulation and visualisation in R
 
 This lesson will cover some functions to effectively manipulate and summarise 
-tabular data using the `dplyr` package and we will start to learn how to 
-visualise data with the `ggplot2` package.
-
-Detailed reference materials:
+tabular data and we will learn more about data visualisation.
 
 * [Data manipulation with `dplyr`](https://datacarpentry.org/R-ecology-lesson/03-dplyr.html)
     * [dplyr starting script](https://raw.githubusercontent.com/tavareshugo/2018-12-03-bioinformatics_for_biologists/master/dplyr_lesson.R)
@@ -77,7 +73,7 @@ Detailed reference materials:
 Digital data recording often starts with a spreadsheet software (e.g. Excel). 
 For an effective data analysis, it's crucial to start with a well structured 
 and formatted dataset. Because of this, we will have a brief discussion about 
-common issues that should be considered when recording data in spreadsheets.
+common issues that should be considered when recording data.
 
 * Download data for this lesson [here](https://ndownloader.figshare.com/files/2252083)
 * Find detailed materials [here](https://datacarpentry.org/spreadsheet-ecology-lesson/)
@@ -91,7 +87,7 @@ The American Statistician, 72:1, 2-10
 Journal of Statistical Software, 59:10
 
 
-## Exploratory RNAseq data analysis in R
+## Exploratory data analysis (using a transcriptomic dataset)
 
 In this session we will apply the concepts learned so far to a worked example of 
 an exploratory data analysis of transcriptomic data.
@@ -124,10 +120,10 @@ Nature Methods 14, 545–546
 
 Reference books:
 
-* Peng R, [Exploratory Data Analysis with R](https://bookdown.org/rdpeng/exdata/) - an excelent introduction to exploratory data analysis, absolutely essential before diving into more advanced topics.
+* Peng R, [Exploratory Data Analysis with R](https://bookdown.org/rdpeng/exdata/) - an excelent introduction to exploratory data analysis techniques and essential before diving into more advanced topics.
 * Grolemund G & Wickham H, [R for Data Science](http://r4ds.had.co.nz/) - a good follow up from this course if you want to learn more about `tidyverse` packages.
-* Holmes S, Huber W, [Modern Statistics for Modern Biology](https://www.huber.embl.de/msmb/) - covers many aspects of data analysis relevant for biology from statistical modelling to image analysis
-* McElreath R, [Statistical Rethinking](https://xcelab.net/rm/statistical-rethinking/) - an introduction book about statistical modelling and inference using R (written in an accessible way to biologists)
+* Holmes S, Huber W, [Modern Statistics for Modern Biology](https://www.huber.embl.de/msmb/) - covers many aspects of data analysis relevant for biology from statistical modelling to image analysis.
+* McElreath R, [Statistical Rethinking](https://xcelab.net/rm/statistical-rethinking/) - an introduction book about statistical modelling and inference using R (written in an accessible way to biologists).
     * Also see the [lecture materials](https://github.com/rmcelreath/statrethinking_winter2019), which include access to the draft of the book's second edition. 
-*  James G, Witten D, Hastie T & Tibshirani R, [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) - an introductory book about machine learning using R
-    * Also see [this course material](https://lgatto.github.io/IntroMachineLearningWithR/) for a practical introduction to this topic
+*  James G, Witten D, Hastie T & Tibshirani R, [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) - an introductory book about machine learning using R.
+    * Also see [this course material](https://lgatto.github.io/IntroMachineLearningWithR/) for a practical introduction to this topic.
