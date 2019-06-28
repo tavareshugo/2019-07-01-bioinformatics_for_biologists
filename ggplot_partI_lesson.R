@@ -16,9 +16,11 @@ setwd("~/Course_Materials/02_intro_to_r")
 surveys <- read_csv("data/portal_data_joined.csv", na = "")
 
 
+#### Tidy data ####
+
+# Removing missing values from variables
+surveys_complete <- drop_na(surveys)
+
+
 ##### Analysis ####
-## Some useful keyboard shortcuts
-## Ctrl + Enter for running line of code from script to console
-## Alt + - for "<-" operator
-## Ctrl + Shift + M for "%>%" pipe operator
 

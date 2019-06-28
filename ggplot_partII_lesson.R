@@ -16,9 +16,23 @@ setwd("~/Course_Materials/02_intro_to_r")
 surveys <- read_csv("data/portal_data_joined.csv", na = "")
 
 
+#### Tidy data ####
+
+# Removing missing values from variables
+surveys_complete <- surveys %>%
+  filter(!is.na(weight),           # remove missing weight
+         !is.na(hindfoot_length),  # remove missing hindfoot_length
+         !is.na(sex))              # remove missing sex
+
+# Extract the most common species_id
+species_counts <- surveys_complete %>%
+  count(species_id) %>%
+  filter(n >= 50)
+
+# Only keep the most common species
+surveys_complete <- surveys_complete %>%
+  filter(species_id %in% species_counts$species_id)
+
+
 ##### Analysis ####
-## Some useful keyboard shortcuts
-## Ctrl + Enter for running line of code from script to console
-## Alt + - for "<-" operator
-## Ctrl + Shift + M for "%>%" pipe operator
 
