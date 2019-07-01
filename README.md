@@ -94,7 +94,7 @@ Journal of Statistical Software, 59:10
 In this session we will apply the concepts learned so far to a worked example of 
 an exploratory data analysis of transcriptomic data.
 
-* [Analysis of gene expression data](https://tavareshugo.github.io/data-carpentry-rnaseq/)
+* [Exploratory analysis of gene expression data](https://tavareshugo.github.io/data-carpentry-rnaseq/)
 
 
 Further reading:
@@ -128,3 +128,14 @@ Reference books:
     * Also see the [lecture materials](https://github.com/rmcelreath/statrethinking_winter2019), which include access to the draft of the book's second edition. 
 *  James G, Witten D, Hastie T & Tibshirani R, [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) - an introductory book about machine learning using R.
     * Also see [this course material](https://lgatto.github.io/IntroMachineLearningWithR/) for a practical introduction to this topic.
+
+
+Other courses at Cambridge:
+
+* [List of scheduled courses](https://www.training.cam.ac.uk/search?course_type_facet_shown=&scheduled=on&course_date_facet_shown=true&course_availability_facet_shown=&provider_1345591=on&provider_facet_shown=&scrollPos=342)
+* Some particular courses that might be of interest:
+    * [Statistics for Biologists in R](https://www.training.cam.ac.uk/event/2815748)
+    * [Introduction to RNA-seq data analysis](https://www.training.cam.ac.uk/course/bioinfo-RNAseq3)
+    * [Analysis of single cell RNA-seq data](https://www.training.cam.ac.uk/event/2823386)
+    * [Variant Discovery with GATK4](https://www.training.cam.ac.uk/event/2858057)
+* Note that you do not need to attend the "Intro to R" courses, because we've already covered that material in this course.
