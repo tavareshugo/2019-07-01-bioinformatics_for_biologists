@@ -41,7 +41,7 @@ However, you are welcome to use your own laptop, in which case you need to:
 
 # Materials 
 
-## Introduction to R
+## Introduction to R (Mon)
 
 This lesson will cover the basics of using R with RStudio and how to produce 
 a wide range of graphs for data visualisation. 
@@ -55,7 +55,7 @@ a wide range of graphs for data visualisation.
 [exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html)
 
 
-## Data manipulation and visualisation in R
+## Data manipulation and visualisation in R (Tues)
 
 This lesson will cover some functions to effectively manipulate and summarise 
 tabular data and we will learn more about data visualisation.
@@ -70,7 +70,7 @@ tabular data and we will learn more about data visualisation.
     * [exercises](https://tavareshugo.github.io/data_carpentry_extras/slides_with_exercises/exercises.html#3_plotting_with_ggplot2)
 
 
-## Data Organisation in Spreadsheets
+## Data Organisation in Spreadsheets (Tues evening)
 
 Digital data recording often starts with a spreadsheet software (e.g. Excel). 
 For an effective data analysis, it's crucial to start with a well structured 
@@ -89,7 +89,7 @@ The American Statistician, 72:1, 2-10
 Journal of Statistical Software, 59:10
 
 
-## Exploratory data analysis (using a transcriptomic dataset)
+## Exploratory analysis of multivariate data (Thu)
 
 In this session we will apply the concepts learned so far to a worked example of 
 an exploratory data analysis of transcriptomic data.
