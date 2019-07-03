@@ -96,6 +96,8 @@ an exploratory data analysis of transcriptomic data.
 
 * [Exploratory analysis of gene expression data](https://tavareshugo.github.io/data-carpentry-rnaseq/)
 
+[exercises](https://tavareshugo.github.io/data-carpentry-rnaseq/00_exercises.html)
+
 
 Further reading:
 
